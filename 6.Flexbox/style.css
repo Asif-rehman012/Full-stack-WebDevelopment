@@ -1,0 +1,27 @@
+.container{
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex: row wrap;
+    justify-content: flex-end;
+   
+    justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    gap: 20px;
+
+}
+
+.box{
+    border: 2px solid green;
+    
+}
+.box3{
+    flex-basis: 200px;
+    border: 2px solid purple;
+    background-color: aqua;
+    align-self: stretch;
+}

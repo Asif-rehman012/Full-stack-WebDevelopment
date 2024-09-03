@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+      <style>
+         * {
+            margin: 0;
+        }
+        .container {
+            height: 100vh;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            background-color: blueviolet;
+        }
+        
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            animation: left-to-right 1s 5s 5;
+            animation-fill-mode: backwards;
+        }
+        
+
+        @keyframes left-to-right {
+            from{
+               transform: translateX(-100px);
+               background-color: green;
+            }
+            to{
+                transform: translateX(100px);
+                background-color: rgb(246, 17, 13);
+            }
+        }
+        
+      </style>
+<body>
+   <div class="container">
+    <div class="box"></div>
+   </div>
+</body>
+</html>

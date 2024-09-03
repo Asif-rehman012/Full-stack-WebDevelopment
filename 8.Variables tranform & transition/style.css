@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --my-color: yellow;
+}
+
+.container{
+    /* width: max(50%, 300px);
+    aspect-ratio: 1/1; */
+    border: 2px solid firebrick;
+    margin-top: 15px;
+    margin-inline: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;               just for try */
+}
+
+.box{
+    display: inline-block;
+    width: calc(200px/4);
+    border: 2px solid yellow;
+    background-color: fuchsia;
+    
+
+}
+button{
+    background-color: var(--my-color);
+}
+p::first-line{
+    font-size: 3rem;
+    background-color: aqua;
+    
+}

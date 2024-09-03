@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    text-decoration-color: blueviolet;
+    text-decoration-line: underline ;
+    text-decoration-style: dashed;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 4px red;
+    position: relative;
+    top: 10px;
+    /* relative sai hmm khee b iss ko set kr sakhtai top sai neechai ya bottom */
+
+}
+body{
+    background-color: wheat;
+}
+
+p{
+    text-align: justify;
+    border:2px dotted red;
+    font-size: 2rem;
+}
+
+.container{
+    width: 80%;
+    margin: 50px;
+    padding: 40px;
+    background-color: white;
+    margin-left: 130px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 25px cornflowerblue, -4px -4px 1px 5px rgb(11, 234, 40); }
+    /* vertical horizontal color -4top left color spread */
+  /* Flex means all lines or boxes will try to come in 1 line use flex wrap, gap */

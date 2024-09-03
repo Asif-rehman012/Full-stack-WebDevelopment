@@ -1,0 +1,41 @@
+/* p{
+    border: 2px solid blue;} */
+
+h2{
+    color: darkblue;
+}
+
+header{
+    width: 400px;
+    border: 5px solid red;
+    margin: 50px;
+    margin-left: 450px;
+}
+
+img{
+    width:10vw;
+}
+
+header img{
+    height: 10%;
+    padding: 100px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(25, 28, 20);
+    border: 20px solid black;
+    padding: 20px;
+    margin-inline: auto;
+}
+
+.red{
+    background-color: red;
+    
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}

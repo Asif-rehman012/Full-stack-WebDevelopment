@@ -1,0 +1,27 @@
+body{
+    background-color: pink;
+}
+
+.container{
+    width: 80%;
+    margin-inline: auto;
+
+}
+.kittya{
+    width: auto;
+    height: 150px;
+    float: right;
+}
+
+.kittyb{
+    float: left;
+}
+.bb{
+    clear: right;
+}
+.text-box{
+     width: 90%;
+     background-color: aliceblue;
+     padding: 40px;
+     border-radius: 10px;
+}

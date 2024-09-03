@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+.container{
+     /* WE CAN ALSO USE MIN WIDTH OR MAX MIN mtlb koyi b screen ho iss sai kmm width nhi hogi */
+    display: grid;
+    margin: 80px;
+   grid-template-columns: repeat(4,130px); /*we can use repeat (auto,fr or px)*/
+    grid-template-rows: 150px 100px;
+    border: none;
+}
+
+.box{
+    border: 2px solid rgb(1, 46, 1);
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.info {
+    display: none;
+}
+
+
+ .box:hover{
+    background-color: rgb(110, 110, 110);
+ }
+
+#box1{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+}
+
+#box2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#box17{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#box2,#box3,#box4,#box8,#box12,#box16,#box18{
+    background-color: rgb(202, 107, 40);
+    color: antiquewhite ;
+    
+}
+
+.box{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
